@@ -1,0 +1,82 @@
+/* Định dạng toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Định dạng tiêu đề h1 */
+h1.singlepg-font {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Định dạng đoạn văn bản */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+/* Định dạng tiêu đề h3 */
+h3 {
+    font-size: 24px;
+    color: #555;
+    margin: 20px 0;
+}
+
+/* Định dạng danh sách có thứ tự và danh sách không thứ tự */
+ol, ul {
+    margin-left: 20px;
+    padding: 0 20px;
+}
+
+/* Định dạng mục trong danh sách */
+li {
+    font-size: 18px;
+}
+
+/* Định dạng liên kết trong đoạn văn bản */
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+/* Định dạng chú thích hình ảnh */
+figcaption {
+    font-style: italic;
+    color: #999;
+}
+
+/* Container chứa nội dung để giữ nội dung tương đối giữa trang */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Định dạng nút "submit" */
+button#submitButton {
+    background-color: #0073e6;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Định dạng nút "submit" khi rê chuột */
+button#submitButton:hover {
+    background-color: #005bbf;
+}
+
+/* Định dạng nút "submit" trong trường hợp bấm */
+button#submitButton:active {
+    background-color: #0047a5;
+}

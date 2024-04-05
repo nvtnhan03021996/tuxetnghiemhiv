@@ -1,0 +1,145 @@
+Dưới đây là một style CSS với một diện mạo trẻ trung hơn cho trang đặt hàng:
+
+```css
+/* Font chữ */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #888;
+    text-align: center;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+    float: center;
+}
+
+/* Header style */
+header {
+    background-color: skyblue;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    float: center;
+    width: 80%;
+}
+
+
+.container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: center;
+}
+
+/* Product container style */
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #888;
+    width: 50%;
+    float: center;
+}
+.product {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px 0px #888;
+    text-align: left;
+    float: center;
+}
+
+/* Product image style */
+.product img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Input and label styles */
+.product label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.product input[type="number"],
+.product input[type="text"],
+.product input[type="tel"],
+.product textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Submit button style */
+.product input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Footer style */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+```
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+
+
+
+
+Style trên sử dụng màu sắc nổi bật hơn, góc tròn đối với phần sản phẩm, và các hiệu ứng hoạt động mịn màng khi di chuột qua nút "Đặt hàng". Tùy chỉnh màu sắc và các giá trị khác để phù hợp với thiết kế cụ thể mà bạn muốn.

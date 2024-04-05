@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 10px;
+  padding: 5px;
+}
+
+/* Định dạng tiêu đề */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Định dạng khung biểu mẫu */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Chọn phần tử fieldset */
+fieldset {
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.3s;
+  width: 80%;
+  margin: 0 auto; /* Để căn giữa theo chiều ngang */
+  display: block;
+  background-color: #fff;
+}
+}
+
+
+/* Định dạng nhãn và trường nhập liệu */
+label {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+  color: #333;
+  font-weight: bold;
+
+}
+
+
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  margin: 2px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input:hover {
+  transform: scale(1.0);
+}
+
+
+/* Định dạng nút Submit */
+input[type="submit"] {
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Màu khi di chuột lên nút Submit */
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Định dạng kết quả hoặc thông báo */
+#result {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 3px;
+  text-align: center;
+}
+
+/* Định dạng nút Submit */
+input[type="reset"] {
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  float: center;
+}
+
+/* Màu khi di chuột lên nút Submit */
+input[type="reset"]:hover {
+  background-color: #0056b3;
